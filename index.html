@@ -1,0 +1,29 @@
+<!DOCTYPE html>    
+<html lang="en">
+    <head>
+        <meta charset ="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+        <title>i-Chat</title>
+        <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+        <script defer src="js/client.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav>
+            <img class="logo" src="icon.png" />
+          </nav>
+        <div class="container">
+            <div class="message left">Nikanshu:Kya kr rha h bhai.</div>
+            <div class="message right">Rahul:Project ke liye Node js seekh tha hu, tu bta kya kr rha h aajkal.</div>
+            <div class="message left">Nikanshu:Ab college monday ko aana h na.</div>
+            <div class="message right">Rahul:Haan milte h monday ko.</div>
+        </div>
+        <div class="send">
+            <form action="#" id="send-container">
+            <input type="text" name="messageInput" id="messageInput">
+            <button class="btn" type="submit">send</button>
+            </form>
+        </div>
+        </body>
+</html>
