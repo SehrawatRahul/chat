@@ -23,9 +23,17 @@
     border: 2px solid black;
     border-radius: 12px;
 }
-/* .left leave {
-    
-}  */
+.mid{ 
+    float: center;
+    clear:both;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 50px;
+    background: rgb(203, 218, 194);
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+}  
 .left{
     float: left;
     clear:both;
